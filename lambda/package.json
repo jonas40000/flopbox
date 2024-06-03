@@ -1,0 +1,25 @@
+{
+  "name": "flopbox-lambda",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "db-reset": "ts-node scripts/reset-db.ts",
+    "db-setup": "ts-node scripts/init-db.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.814.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.76",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^14.14.37",
+    "@types/pg": "^8.11.6",
+    "typescript": "^4.9.5"
+  }
+}

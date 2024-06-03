@@ -12,6 +12,10 @@ Flopbox's code consists of three major directories:
 - **lambda** contains code for a Lambda function which implements Flopbox's API
 - **webpage** contains the Flopbox frontend
 
+## Architecture
+
+![Flopbox's Architecture](architecture.jpg)
+
 ## Deploying
 
 Make sure you have sufficient AWS permissions to perform the deployment and that the AWS access credentials are available in your env.
